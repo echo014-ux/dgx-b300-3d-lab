@@ -1,0 +1,598 @@
+{
+  "version": 1,
+  "verified_on": "2026-10-04",
+  "edition": "Reference Edition",
+  "notice": "Photo-referenced educational reconstruction; not manufacturer CAD or a service procedure.",
+  "credit": "参考图片 © NVIDIA；三维重建为独立教学作品。",
+  "assets": [
+    {
+      "file": "dgx-b300-ac-exploded-view.png",
+      "sha256": "5fd390e4c7fc024fb786eb621a44f0c757c83e2b85e3fa983a398d713dd8d58f",
+      "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/_images/dgx-b300-ac-exploded-view.png",
+      "credit": "© NVIDIA Corporation. Official DGX B300 User Guide. Reference image, not original game artwork."
+    },
+    {
+      "file": "dgx-b300-front-view-ac.png",
+      "sha256": "9271816cbbf82d99bb25e1da136045153aefba1c2c04dd824d9a647e74e2bfcf",
+      "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/_images/dgx-b300-front-view-ac.png",
+      "credit": "© NVIDIA Corporation. Official DGX B300 User Guide. Reference image, not original game artwork."
+    },
+    {
+      "file": "dgx-b300-gpu-tray.png",
+      "sha256": "6074445b5b8b1292820a78393de20e8d911853943a1bc570ec42f2b6be633c3f",
+      "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/_images/dgx-b300-gpu-tray.png",
+      "credit": "© NVIDIA Corporation. Official DGX B300 User Guide. Reference image, not original game artwork."
+    },
+    {
+      "file": "dgx-b300-gpu.png",
+      "sha256": "e422a90bd4571d53026d5533fe3996248852d75a699910a09d16b8e06bc50531",
+      "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/_images/dgx-b300-gpu.png",
+      "credit": "© NVIDIA Corporation. Official DGX B300 User Guide. Reference image, not original game artwork."
+    },
+    {
+      "file": "dgx-b300-mb-tray-comp.png",
+      "sha256": "947a3a81e4c5120d733feea31b4b433f062c4708f897dff8b36ec6034e79d9b6",
+      "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/_images/dgx-b300-mb-tray-comp.png",
+      "credit": "© NVIDIA Corporation. Official DGX B300 User Guide. Reference image, not original game artwork."
+    },
+    {
+      "file": "dgx-b300-osfpport-view.png",
+      "sha256": "82ec63111de1b4b306bc3e3f34ac081410d7e368a704de7c5e25734b4f658a2b",
+      "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/_images/dgx-b300-osfpport-view.png",
+      "credit": "© NVIDIA Corporation. Official DGX B300 User Guide. Reference image, not original game artwork."
+    },
+    {
+      "file": "dgx-b300-physical-specs.png",
+      "sha256": "981f176bcc2bdec4b72900d4e83c3feb651bd2dc25b745f0aa44e056cd905628",
+      "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/_images/dgx-b300-physical-specs.png",
+      "credit": "© NVIDIA Corporation. Official DGX B300 User Guide. Reference image, not original game artwork."
+    },
+    {
+      "file": "dgx-b300-port-view.png",
+      "sha256": "fc691b6f922d8ff63defe0f49b6abe803a0971069b7121e773d0b8c102ba92b2",
+      "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/_images/dgx-b300-port-view.png",
+      "credit": "© NVIDIA Corporation. Official DGX B300 User Guide. Reference image, not original game artwork."
+    },
+    {
+      "file": "dgx-b300-rear-view-ac.png",
+      "sha256": "94428f7ad535a811e4b648ecb3c83184c4f20900a12df4855a1598936cc70104",
+      "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/_images/dgx-b300-rear-view-ac.png",
+      "credit": "© NVIDIA Corporation. Official DGX B300 User Guide. Reference image, not original game artwork."
+    },
+    {
+      "file": "dgx-b300-with-bezel.png",
+      "sha256": "c1a7debc0f71d8b65d4973ad2ce79ec719d260df73550ce3885270965bad4496",
+      "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/_images/dgx-b300-with-bezel.png",
+      "credit": "© NVIDIA Corporation. Official DGX B300 User Guide. Reference image, not original game artwork."
+    }
+  ],
+  "components": {
+    "chassis": {
+      "title": "10U 机箱",
+      "count": "482.6 × 904.2 × 442 mm",
+      "photos": [
+        {
+          "file": "dgx-b300-with-bezel.png",
+          "label": "金色前饰板",
+          "view": "front",
+          "regions": [],
+          "note": "NVIDIA 官方用户手册图片",
+          "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/_images/dgx-b300-with-bezel.png"
+        },
+        {
+          "file": "dgx-b300-front-view-ac.png",
+          "label": "正面 · 去除饰板",
+          "view": "front",
+          "regions": [],
+          "note": "NVIDIA 官方用户手册图片",
+          "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/_images/dgx-b300-front-view-ac.png"
+        },
+        {
+          "file": "dgx-b300-rear-view-ac.png",
+          "label": "后部 · AC 接口与风扇",
+          "view": "rear",
+          "regions": [],
+          "note": "NVIDIA 官方用户手册图片",
+          "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/_images/dgx-b300-rear-view-ac.png"
+        },
+        {
+          "file": "dgx-b300-physical-specs.png",
+          "label": "外形尺寸",
+          "view": "iso",
+          "regions": [],
+          "note": "NVIDIA 官方用户手册图片",
+          "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/_images/dgx-b300-physical-specs.png"
+        }
+      ],
+      "matched": [
+        "按官方整机宽、深、高比例建立外壳",
+        "黑色机架耳、8 处固定点与金色通风饰板",
+        "前部 I/O、后部风扇与 AC 进线分区"
+      ],
+      "limit": "箱体板厚、紧固件尺寸与网孔间距根据图片估算。前饰板外观使用官方照片贴图（保留原图光照），其后通风网格为简化几何，尚未重建真实编织结构。",
+      "basis": "官方图片 / 结构图对照",
+      "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/introduction-to-dgxb300.html"
+    },
+    "lid": {
+      "title": "GPU 托盘顶盖",
+      "count": "可分离的金属盖板",
+      "photos": [
+        {
+          "file": "dgx-b300-ac-exploded-view.png",
+          "label": "整机爆炸结构图",
+          "view": "iso",
+          "regions": [
+            [
+              40,
+              1,
+              31,
+              19
+            ]
+          ],
+          "note": "NVIDIA 官方结构图；并非零件实拍",
+          "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/_images/dgx-b300-ac-exploded-view.png"
+        }
+      ],
+      "matched": [
+        "独立 GPU 托盘盖板，而非整机顶部",
+        "折边、压筋、固定螺钉与蓝色释放标记"
+      ],
+      "limit": "现有公开参考是爆炸结构图，盖板孔位与锁扣尺寸没有工程图支持。",
+      "basis": "官方图片 / 结构图对照",
+      "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/introduction-to-dgxb300.html"
+    },
+    "gpus": {
+      "title": "B300 GPU",
+      "count": "8 个 · 四列 × 两排",
+      "photos": [
+        {
+          "file": "dgx-b300-gpu-tray.png",
+          "label": "GPU 托盘俯视",
+          "view": "top",
+          "regions": [
+            [
+              36,
+              25,
+              10,
+              64
+            ],
+            [
+              55,
+              25,
+              10,
+              64
+            ]
+          ],
+          "note": "NVIDIA 官方用户手册图片",
+          "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/_images/dgx-b300-gpu-tray.png"
+        },
+        {
+          "file": "dgx-b300-gpu.png",
+          "label": "GPU 托盘正面",
+          "view": "front",
+          "regions": [],
+          "note": "NVIDIA 官方用户手册图片",
+          "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/_images/dgx-b300-gpu.png"
+        },
+        {
+          "file": "dgx-b300-ac-exploded-view.png",
+          "label": "整机爆炸结构图",
+          "view": "iso",
+          "regions": [],
+          "note": "NVIDIA 官方结构图；并非零件实拍",
+          "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/_images/dgx-b300-ac-exploded-view.png"
+        }
+      ],
+      "matched": [
+        "依据俯视图恢复四列、两排的八模块布局",
+        "高耸黑色散热鳍片、金色顶牌与承载托盘",
+        "独立固定点、供电元件与热管造型"
+      ],
+      "limit": "官方图中看不到散热器下的封装与 HBM。芯片透视是架构教学示意，不表示真实封装坐标或内部尺寸。",
+      "basis": "官方图片 / 结构图对照",
+      "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/introduction-to-dgxb300.html"
+    },
+    "nvlink": {
+      "title": "NVLink Switch",
+      "count": "2 个 · 第五代 NVLink",
+      "photos": [
+        {
+          "file": "dgx-b300-gpu-tray.png",
+          "label": "GPU 托盘俯视",
+          "view": "top",
+          "regions": [
+            [
+              46,
+              25,
+              9,
+              64
+            ]
+          ],
+          "note": "NVIDIA 官方用户手册图片",
+          "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/_images/dgx-b300-gpu-tray.png"
+        },
+        {
+          "file": "dgx-b300-ac-exploded-view.png",
+          "label": "整机爆炸结构图",
+          "view": "iso",
+          "regions": [],
+          "note": "NVIDIA 官方结构图；并非零件实拍",
+          "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/_images/dgx-b300-ac-exploded-view.png"
+        }
+      ],
+      "matched": [
+        "双交换组件数量",
+        "两排 GPU 之间的中部区域",
+        "独立载板与散热结构"
+      ],
+      "limit": "图中交换芯片被散热结构遮挡；载板边界、散热器尺寸与芯片外形为估算，不是实物细节复刻。",
+      "basis": "官方图片 / 结构图对照",
+      "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/introduction-to-dgxb300.html"
+    },
+    "cpu": {
+      "title": "Intel Xeon CPU",
+      "count": "2 × Xeon Platinum 6776P",
+      "photos": [
+        {
+          "file": "dgx-b300-mb-tray-comp.png",
+          "label": "主板托盘俯视",
+          "view": "top",
+          "regions": [
+            [
+              31.3,
+              31.5,
+              10,
+              12
+            ],
+            [
+              31.3,
+              61.2,
+              10,
+              12
+            ]
+          ],
+          "note": "NVIDIA 官方用户手册图片",
+          "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/_images/dgx-b300-mb-tray-comp.png"
+        },
+        {
+          "file": "dgx-b300-ac-exploded-view.png",
+          "label": "整机爆炸结构图",
+          "view": "iso",
+          "regions": [],
+          "note": "NVIDIA 官方结构图；并非零件实拍",
+          "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/_images/dgx-b300-ac-exploded-view.png"
+        }
+      ],
+      "matched": [
+        "两个 CPU 位于主板后部区域",
+        "CPU 与四组 DIMM 的相对排列",
+        "主板托盘、固定框架、电缆束及前部管理接口"
+      ],
+      "limit": "CPU 型号来自手册文字；底部走线、散热片结构与器件尺寸按照片做简化重建。",
+      "basis": "官方图片 / 结构图对照",
+      "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/introduction-to-dgxb300.html"
+    },
+    "memory": {
+      "title": "主机内存",
+      "count": "32 条 DIMM · 2 TB / 4 TB",
+      "photos": [
+        {
+          "file": "dgx-b300-mb-tray-comp.png",
+          "label": "主板托盘俯视",
+          "view": "top",
+          "regions": [
+            [
+              29.4,
+              22.2,
+              12,
+              9.1
+            ],
+            [
+              29.4,
+              43.7,
+              12,
+              7.8
+            ],
+            [
+              29.4,
+              52.3,
+              12,
+              8.1
+            ],
+            [
+              29.4,
+              74.2,
+              12,
+              7.8
+            ]
+          ],
+          "note": "NVIDIA 官方用户手册图片",
+          "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/_images/dgx-b300-mb-tray-comp.png"
+        }
+      ],
+      "matched": [
+        "32 条 DIMM，四组、每组八条",
+        "绿色基板、双侧 DRAM 与金手指",
+        "插槽及两端固定卡扣"
+      ],
+      "limit": "64 GB / 128 GB 为官方标注的两种容量。颗粒布局、标签和零件品牌因实际供货版本而异。",
+      "basis": "官方图片 / 结构图对照",
+      "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/introduction-to-dgxb300.html"
+    },
+    "cx8": {
+      "title": "ConnectX-8",
+      "count": "8 张网卡 · 8 × OSFP",
+      "photos": [
+        {
+          "file": "dgx-b300-gpu-tray.png",
+          "label": "GPU 托盘俯视",
+          "view": "top",
+          "regions": [
+            [
+              26,
+              23,
+              7,
+              69
+            ],
+            [
+              71,
+              24,
+              9,
+              68
+            ]
+          ],
+          "note": "NVIDIA 官方用户手册图片",
+          "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/_images/dgx-b300-gpu-tray.png"
+        },
+        {
+          "file": "dgx-b300-osfpport-view.png",
+          "label": "八个集群网络端口",
+          "view": "front",
+          "regions": [],
+          "note": "NVIDIA 官方用户手册图片",
+          "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/_images/dgx-b300-osfpport-view.png"
+        }
+      ],
+      "matched": [
+        "GPU 托盘的网卡与前部端口分区",
+        "八个 OSFP 金属笼子，左右各四个",
+        "端口编号、开口与金属边框"
+      ],
+      "limit": "网卡板形和内部连接路由未在公开图中完全展示。模型保留功能位置，连接不表示实际布线图。",
+      "basis": "官方图片 / 结构图对照",
+      "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/introduction-to-dgxb300.html"
+    },
+    "dpu": {
+      "title": "BlueField-3 DPU",
+      "count": "2 张 · 每张双端口",
+      "photos": [
+        {
+          "file": "dgx-b300-port-view.png",
+          "label": "主板前部接口",
+          "view": "front",
+          "regions": [
+            [
+              7,
+              23,
+              26,
+              24
+            ],
+            [
+              61,
+              23,
+              27,
+              24
+            ]
+          ],
+          "note": "NVIDIA 官方用户手册图片",
+          "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/_images/dgx-b300-port-view.png"
+        },
+        {
+          "file": "dgx-b300-mb-tray-comp.png",
+          "label": "主板托盘俯视",
+          "view": "top",
+          "regions": [
+            [
+              48,
+              24,
+              28,
+              19
+            ],
+            [
+              48,
+              63,
+              28,
+              20
+            ]
+          ],
+          "note": "NVIDIA 官方用户手册图片",
+          "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/_images/dgx-b300-mb-tray-comp.png"
+        }
+      ],
+      "matched": [
+        "主板托盘前部左右两张 DPU",
+        "每张双网络端口与独立前挡板",
+        "金属屏蔽笼、板载散热器及 PCIe 接点"
+      ],
+      "limit": "大部分 DPU 电路在官方整机图片里被盖板遮住；模型中的板级器件布局为简化表示。",
+      "basis": "官方图片 / 结构图对照",
+      "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/introduction-to-dgxb300.html"
+    },
+    "cache": {
+      "title": "本地 NVMe 存储",
+      "count": "8 × E1.S · 3.84 TB / 块",
+      "photos": [
+        {
+          "file": "dgx-b300-port-view.png",
+          "label": "主板前部接口",
+          "view": "front",
+          "regions": [
+            [
+              34,
+              23,
+              27,
+              38
+            ]
+          ],
+          "note": "NVIDIA 官方用户手册图片",
+          "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/_images/dgx-b300-port-view.png"
+        },
+        {
+          "file": "dgx-b300-front-view-ac.png",
+          "label": "正面 · 去除饰板",
+          "view": "front",
+          "regions": [
+            [
+              26,
+              76,
+              16,
+              10
+            ]
+          ],
+          "note": "NVIDIA 官方用户手册图片",
+          "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/_images/dgx-b300-front-view-ac.png"
+        }
+      ],
+      "matched": [
+        "八块 E1.S 位于主板前面板中央",
+        "竖直窄型托架、抽拉卡扣与状态灯",
+        "与左右 DPU 分离的存储区"
+      ],
+      "limit": "盘体深度、散热筋与内部闪存不由正面图片确认；实际盘品牌和容量以交付配置为准。",
+      "basis": "官方图片 / 结构图对照",
+      "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/introduction-to-dgxb300.html"
+    },
+    "boot": {
+      "title": "系统启动盘",
+      "count": "2 × M.2 · 1.92 TB / 块",
+      "photos": [
+        {
+          "file": "dgx-b300-port-view.png",
+          "label": "主板前部接口",
+          "view": "front",
+          "regions": [
+            [
+              7,
+              52,
+              26,
+              12
+            ]
+          ],
+          "note": "官方图仅标明 OCP 启动盘载板的安装区域，盘体被遮挡。",
+          "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/_images/dgx-b300-port-view.png"
+        },
+        {
+          "file": "dgx-b300-mb-tray-comp.png",
+          "label": "主板托盘俯视",
+          "view": "top",
+          "regions": [
+            [
+              49,
+              64,
+              28,
+              19
+            ]
+          ],
+          "note": "官方主板图的说明指出 M.2 位于底部，未展示独立盘体。",
+          "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/_images/dgx-b300-mb-tray-comp.png"
+        }
+      ],
+      "matched": [
+        "双 M.2 启动盘与 OCP 载板的组织关系",
+        "前部左侧、DPU 下方的安装区域"
+      ],
+      "limit": "公开图片没有展示盘体。绿色 M.2 外形、控制器及 NAND 只是教学示意，不能用来识别真实供应商或维修拆装。",
+      "basis": "官方图片 / 结构图对照",
+      "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/introduction-to-dgxb300.html"
+    },
+    "psu": {
+      "title": "AC 冗余电源",
+      "count": "12 个 · N+N 冗余",
+      "photos": [
+        {
+          "file": "dgx-b300-front-view-ac.png",
+          "label": "正面 · 去除饰板",
+          "view": "front",
+          "regions": [
+            [
+              9,
+              5,
+              51,
+              17
+            ]
+          ],
+          "note": "NVIDIA 官方用户手册图片",
+          "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/_images/dgx-b300-front-view-ac.png"
+        },
+        {
+          "file": "dgx-b300-rear-view-ac.png",
+          "label": "后部 · AC 接口与风扇",
+          "view": "rear",
+          "regions": [
+            [
+              9,
+              4,
+              57,
+              18
+            ]
+          ],
+          "note": "NVIDIA 官方用户手册图片",
+          "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/_images/dgx-b300-rear-view-ac.png"
+        },
+        {
+          "file": "dgx-b300-ac-exploded-view.png",
+          "label": "整机爆炸结构图",
+          "view": "iso",
+          "regions": [],
+          "note": "NVIDIA 官方结构图；并非零件实拍",
+          "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/_images/dgx-b300-ac-exploded-view.png"
+        }
+      ],
+      "matched": [
+        "前部上方六列、两排电源模块",
+        "前端小风扇、抽拔结构与长金属外壳",
+        "后部十二个独立 AC 电源入口"
+      ],
+      "limit": "前端电源模块与后端 AC 输入分属同一供电组件组；内部电源分配连线未复刻。",
+      "basis": "官方图片 / 结构图对照",
+      "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/introduction-to-dgxb300.html"
+    },
+    "cooling": {
+      "title": "后部散热模块",
+      "count": "20 个 · 五列 × 四排",
+      "photos": [
+        {
+          "file": "dgx-b300-rear-view-ac.png",
+          "label": "后部 · AC 接口与风扇",
+          "view": "rear",
+          "regions": [
+            [
+              10,
+              24,
+              57,
+              70
+            ]
+          ],
+          "note": "NVIDIA 官方用户手册图片",
+          "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/_images/dgx-b300-rear-view-ac.png"
+        },
+        {
+          "file": "dgx-b300-ac-exploded-view.png",
+          "label": "整机爆炸结构图",
+          "view": "iso",
+          "regions": [],
+          "note": "NVIDIA 官方结构图；并非零件实拍",
+          "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/_images/dgx-b300-ac-exploded-view.png"
+        }
+      ],
+      "matched": [
+        "官方后视图标注的 20 个热插拔风扇",
+        "五列四排阵列、方形风道与中部拉手",
+        "弯曲叶片、保护网、固定点及指示灯"
+      ],
+      "limit": "真实叶片被保护网遮挡。叶片数量、倾角、模组深度与转速均未获厂家工程资料确认。",
+      "basis": "官方图片 / 结构图对照",
+      "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/introduction-to-dgxb300.html"
+    }
+  }
+}

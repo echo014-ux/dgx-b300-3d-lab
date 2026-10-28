@@ -1,0 +1,599 @@
+{
+  "version": 3,
+  "edition": "Reference Edition",
+  "verified_on": "2026-10-04",
+  "voice": "Chatterbox reference-conditioned local Chinese voice, approved 2026-10-05",
+  "video_format": "1920x1080 / 30 fps / H.264 + AAC",
+  "visuals": "48 Blender camera views per component, smoothly interpolated; photo-referenced educational reconstruction; occluded parts are schematic",
+  "lessons": {
+    "chassis": {
+      "id": "chassis",
+      "title": "10U 机箱",
+      "spec": "10U · AC 整机",
+      "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/introduction-to-dgxb300.html",
+      "duration": 32.36,
+      "video": "./assets/lessons/chassis.mp4?v=57e384aa51a0",
+      "audio": "./assets/lessons/chassis.mp3?v=57e384aa51a0",
+      "poster": "./assets/lessons/chassis_poster.jpg?v=57e384aa51a0",
+      "captions": "./assets/lessons/chassis.vtt?v=57e384aa51a0",
+      "chapters": [
+        {
+          "heading": "承载整机",
+          "caption": "机箱将计算、存储、网络和供电组织在一起。",
+          "narration": "这一段认识机箱。它把计算、存储、网络和供电组织成一台完整的服务器。",
+          "transcript": "这一段认识机箱。它把计算、存储、网络和供电组织成一台完整的服务器。",
+          "start": 0,
+          "end": 7.04
+        },
+        {
+          "heading": "读懂 10U",
+          "caption": "U 表示机架高度单位，不是算力单位。",
+          "narration": "这个机箱占用十个机架高度单位，也就是十 U。这个数字说明体积，不代表计算能力。",
+          "transcript": "这个机箱占用十个机架高度单位，也就是十 U。这个数字说明体积，不代表计算能力。",
+          "start": 7.49,
+          "end": 15.33
+        },
+        {
+          "heading": "进入机房",
+          "caption": "同时检查空间、承重、供电和气流。",
+          "narration": "部署前需要一起检查机柜空间、承重、供电和气流，不能只看能否塞进机柜。",
+          "transcript": "部署前需要一起检查机柜空间、承重、供电和气流，不能只看能否塞进机柜。",
+          "start": 15.78,
+          "end": 23.14
+        },
+        {
+          "heading": "区分版本",
+          "caption": "本模型展示 AC 版本；DC 版本供电方案不同。",
+          "narration": "这里展示交流供电版本。直流母排版本的供电方案不同，采购时要锁定版本。",
+          "transcript": "这里展示交流供电版本。直流母排版本的供电方案不同，采购时要锁定版本。",
+          "start": 23.59,
+          "end": 30.91
+        }
+      ],
+      "sha256": "57e384aa51a05af0577e52f7472e2cd5d470e894eef5fb1dabe0e54851a404c0",
+      "voice": "Chatterbox reference-conditioned local Chinese voice, approved 2026-10-05",
+      "voice_revision": "chatterbox-20261005",
+      "audio_sha256": "19c12e5c1edf0ce836f363b15d988b19888d95469d42002be514c38f1677c9ce"
+    },
+    "lid": {
+      "id": "lid",
+      "title": "机箱顶盖",
+      "spec": "教学剖面 · 结构观察",
+      "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/introduction-to-dgxb300.html",
+      "duration": 32.08,
+      "video": "./assets/lessons/lid.mp4?v=890c29a526fb",
+      "audio": "./assets/lessons/lid.mp3?v=890c29a526fb",
+      "poster": "./assets/lessons/lid_poster.jpg?v=890c29a526fb",
+      "captions": "./assets/lessons/lid.vtt?v=890c29a526fb",
+      "chapters": [
+        {
+          "heading": "打开观察窗口",
+          "caption": "顶盖帮助我们理解整机内部的层次。",
+          "narration": "这一段认识顶盖。打开教学模型的顶盖，就能看到各类组件的层次与关系。",
+          "transcript": "这一段认识顶盖。打开教学模型的顶盖，就能看到各类组件的层次与关系。",
+          "start": 0,
+          "end": 7.04
+        },
+        {
+          "heading": "认出模块",
+          "caption": "计算、互连、存储、网络和供电各有职责。",
+          "narration": "观察内部时，先认出计算、互连、存储、网络和供电，理解每个模块的职责。",
+          "transcript": "观察内部时，先认出计算、互连、存储、网络和供电，理解每个模块的职责。",
+          "start": 7.49,
+          "end": 14.33
+        },
+        {
+          "heading": "为什么要拆解",
+          "caption": "拆解视图表达部件关系，不等于真实维修步骤。",
+          "narration": "游戏的展开视图用来表达部件关系。显示的移动方向不等于真实维修时的拆卸步骤。",
+          "transcript": "游戏的展开视图用来表达部件关系。显示的移动方向不等于真实维修时的拆卸步骤。",
+          "start": 14.78,
+          "end": 22.58
+        },
+        {
+          "heading": "正确使用模型",
+          "caption": "内部布局为教学示意，真实服务需遵循官方流程。",
+          "narration": "本模型不是工厂图纸。真实维护应由授权人员按照官方服务流程完成。",
+          "transcript": "本模型不是工厂图纸。真实维护应由授权人员按照官方服务流程完成。",
+          "start": 23.03,
+          "end": 30.63
+        }
+      ],
+      "sha256": "890c29a526fb83ad1882e2ea196fa1948f745c9618518b07f38955971861a43f",
+      "voice": "Chatterbox reference-conditioned local Chinese voice, approved 2026-10-05",
+      "voice_revision": "chatterbox-20261005",
+      "audio_sha256": "15c53e581ebe4a7ab122814379e33ec62e54561d065462caea5ca45dd9755540"
+    },
+    "gpus": {
+      "id": "gpus",
+      "title": "B300 GPU",
+      "spec": "8 GPU · Blackwell Ultra",
+      "source": "https://www.nvidia.com/en-us/data-center/dgx-b300/",
+      "duration": 38.6,
+      "video": "./assets/lessons/gpus.mp4?v=f258a78d50de",
+      "audio": "./assets/lessons/gpus.mp3?v=f258a78d50de",
+      "poster": "./assets/lessons/gpus_poster.jpg?v=f258a78d50de",
+      "captions": "./assets/lessons/gpus.vtt?v=f258a78d50de",
+      "chapters": [
+        {
+          "heading": "算力核心",
+          "caption": "B300 GPU 加速 AI 训练与推理。",
+          "narration": "这一段认识 B 三百图形处理器。它是整机的算力核心，用于加速人工智能训练与推理。",
+          "transcript": "这一段认识 B 三百图形处理器。它是整机的算力核心，用于加速人工智能训练与推理。",
+          "start": 0,
+          "end": 8.16
+        },
+        {
+          "heading": "单机配置",
+          "caption": "8 个 Blackwell Ultra SXM GPU。",
+          "narration": "一台服务器包含八颗图形处理器，属于布莱克韦尔系列。它们协同处理模型计算，而不是普通桌面显卡。",
+          "transcript": "一台服务器包含八颗图形处理器，属于布莱克韦尔系列。它们协同处理模型计算，而不是普通桌面显卡。",
+          "start": 8.61,
+          "end": 17.97
+        },
+        {
+          "heading": "显存来源",
+          "caption": "手册：8 × 288 GB；产品页：总显存 2.1 TB。",
+          "narration": "用户手册写每个处理器二百八十八吉字节显存，官网总量写二点一太字节。采购时应锁定验收口径。",
+          "transcript": "用户手册写每个处理器二百八十八吉字节显存，官网总量写二点一太字节。采购时应锁定验收口径。",
+          "start": 18.42,
+          "end": 28.5
+        },
+        {
+          "heading": "架构与实测",
+          "caption": "Transformer Engine 利用低精度加速；峰值不等于业务吞吐。",
+          "narration": "Transformer Engine结合低精度计算提高效率。实际性能仍要按模型精度、延迟和吞吐来测试。",
+          "transcript": "Transformer Engine结合低精度计算提高效率。实际性能仍要按模型精度、延迟和吞吐来测试。",
+          "start": 28.95,
+          "end": 37.15
+        }
+      ],
+      "sha256": "f258a78d50de1f8488c65ab3e42ef9a5a40abcde652c52ba63609a1a0c98cec5",
+      "voice": "Chatterbox reference-conditioned local Chinese voice, approved 2026-10-05",
+      "voice_revision": "chatterbox-20261005",
+      "audio_sha256": "f52d36bef882a6580505a10287b86775bab3d9f392d48254976242fcee113110"
+    },
+    "nvlink": {
+      "id": "nvlink",
+      "title": "NVLink Switch",
+      "spec": "2 组交换组件 · 14.4 TB/s",
+      "source": "https://www.nvidia.com/en-us/data-center/dgx-b300/",
+      "duration": 37.68,
+      "video": "./assets/lessons/nvlink.mp4?v=2084cc2ba7d8",
+      "audio": "./assets/lessons/nvlink.mp3?v=2084cc2ba7d8",
+      "poster": "./assets/lessons/nvlink_poster.jpg?v=2084cc2ba7d8",
+      "captions": "./assets/lessons/nvlink.vtt?v=2084cc2ba7d8",
+      "chapters": [
+        {
+          "heading": "本机 GPU 的桥梁",
+          "caption": "NVLink Switch 组织同一台机器内的 GPU 通信。",
+          "narration": "这一段认识高速互连交换组件。它负责组织同一台机器内图形处理器之间的数据通信。",
+          "transcript": "这一段认识高速互连交换组件。它负责组织同一台机器内图形处理器之间的数据通信。",
+          "start": 0,
+          "end": 8.88
+        },
+        {
+          "heading": "协同计算",
+          "caption": "训练和多 GPU 推理需要交换中间结果。",
+          "narration": "当多个图形处理器一起训练或推理时，需要交换中间结果。互连效率会影响协作效率。",
+          "transcript": "当多个图形处理器一起训练或推理时，需要交换中间结果。互连效率会影响协作效率。",
+          "start": 9.33,
+          "end": 18.65
+        },
+        {
+          "heading": "读懂带宽",
+          "caption": "官网列整机聚合 NVLink 带宽 14.4 TB/s。",
+          "narration": "官网列整机聚合互连带宽为每秒十四点四太字节。这是聚合口径，不能当成单条链路速度。",
+          "transcript": "官网列整机聚合互连带宽为每秒十四点四太字节。这是聚合口径，不能当成单条链路速度。",
+          "start": 19.1,
+          "end": 27.82
+        },
+        {
+          "heading": "跨机边界",
+          "caption": "跨 DGX 通过外部网络，不是一个巨大 NVLink 域。",
+          "narration": "跨服务器要经过网卡和外部网络。一百二十八台机器不会自动成为一个巨大的互连域。",
+          "transcript": "跨服务器要经过网卡和外部网络。一百二十八台机器不会自动成为一个巨大的互连域。",
+          "start": 28.27,
+          "end": 36.23
+        }
+      ],
+      "sha256": "2084cc2ba7d81148c8fe5f5b086f1c3d9153ba9894e8842a805763e3297f05f7",
+      "voice": "Chatterbox reference-conditioned local Chinese voice, approved 2026-10-05",
+      "voice_revision": "chatterbox-20261005",
+      "audio_sha256": "a9bd7ba6ef548fc6c656bce334d909c6470fd5118baf13563741e204230532fb"
+    },
+    "cpu": {
+      "id": "cpu",
+      "title": "Intel Xeon CPU",
+      "spec": "2 × Xeon Platinum 6776P",
+      "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/introduction-to-dgxb300.html",
+      "duration": 33.64,
+      "video": "./assets/lessons/cpu.mp4?v=06f0cfb98ba5",
+      "audio": "./assets/lessons/cpu.mp3?v=06f0cfb98ba5",
+      "poster": "./assets/lessons/cpu_poster.jpg?v=06f0cfb98ba5",
+      "captions": "./assets/lessons/cpu.vtt?v=06f0cfb98ba5",
+      "chapters": [
+        {
+          "heading": "主机的大脑",
+          "caption": "CPU 运行操作系统并协调服务器。",
+          "narration": "这一段认识中央处理器。它运行操作系统，协调服务器里的硬件和应用程序。",
+          "transcript": "这一段认识中央处理器。它运行操作系统，协调服务器里的硬件和应用程序。",
+          "start": 0,
+          "end": 7.88
+        },
+        {
+          "heading": "分工合作",
+          "caption": "CPU 准备数据和调度；GPU 承担大量并行计算。",
+          "narration": "中央处理器准备数据、调度任务，图形处理器承担大量并行计算。两者需要配合。",
+          "transcript": "中央处理器准备数据、调度任务，图形处理器承担大量并行计算。两者需要配合。",
+          "start": 8.33,
+          "end": 16.29
+        },
+        {
+          "heading": "产品识别",
+          "caption": "DGX B300 使用两颗 Intel Xeon Platinum 6776P。",
+          "narration": "主机里有两颗英特尔至强处理器，型号是六七七六 P。",
+          "transcript": "主机里有两颗英特尔至强处理器，型号是六七七六 P。",
+          "start": 16.74,
+          "end": 21.66
+        },
+        {
+          "heading": "采购边界",
+          "caption": "搭配 AMD 的 OEM B300 服务器属于另一种整机。",
+          "narration": "有些厂商的服务器使用另一种中央处理器平台。即使图形处理器相同，也不能直接当成这款整机采购。",
+          "transcript": "有些厂商的服务器使用另一种中央处理器平台。即使图形处理器相同，也不能直接当成这款整机采购。",
+          "start": 22.11,
+          "end": 32.19
+        }
+      ],
+      "sha256": "06f0cfb98ba549ab5c79fdcf89298c4eb92165f3b8f03ff5e82d05315643f061",
+      "voice": "Chatterbox reference-conditioned local Chinese voice, approved 2026-10-05",
+      "voice_revision": "chatterbox-20261005",
+      "audio_sha256": "6e46d7f9bb1f2cfeaf6ca61161ed4d8b5ff4b648fa3e1bf825119c810db68c26"
+    },
+    "memory": {
+      "id": "memory",
+      "title": "主机内存",
+      "spec": "2 TB 默认 · 可扩展至 4 TB",
+      "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/introduction-to-dgxb300.html",
+      "duration": 37.92,
+      "video": "./assets/lessons/memory.mp4?v=691c36b1876b",
+      "audio": "./assets/lessons/memory.mp3?v=691c36b1876b",
+      "poster": "./assets/lessons/memory_poster.jpg?v=691c36b1876b",
+      "captions": "./assets/lessons/memory.vtt?v=691c36b1876b",
+      "chapters": [
+        {
+          "heading": "CPU 的工作空间",
+          "caption": "主机内存保存 CPU 正在使用的数据。",
+          "narration": "这一段认识主机内存。它保存中央处理器正在使用的数据与程序，是主机的工作空间。",
+          "transcript": "这一段认识主机内存。它保存中央处理器正在使用的数据与程序，是主机的工作空间。",
+          "start": 0,
+          "end": 8.72
+        },
+        {
+          "heading": "容量配置",
+          "caption": "标准主机内存 2 TB，可扩展至 4 TB。",
+          "narration": "官方手册给出的默认容量是二太字节，可扩展至四太字节。容量要结合应用来规划。",
+          "transcript": "官方手册给出的默认容量是二太字节，可扩展至四太字节。容量要结合应用来规划。",
+          "start": 9.17,
+          "end": 17.25
+        },
+        {
+          "heading": "区分显存",
+          "caption": "主机内存与 GPU HBM 属于不同内存空间。",
+          "narration": "主机内存与图形处理器显存属于不同空间。不能把两者相加，作为模型可直接使用的显存。",
+          "transcript": "主机内存与图形处理器显存属于不同空间。不能把两者相加，作为模型可直接使用的显存。",
+          "start": 17.7,
+          "end": 26.66
+        },
+        {
+          "heading": "对照 32 条 DIMM",
+          "caption": "官方主板图标注 32 条 DIMM，本模型据此还原。",
+          "narration": "官方主板图标注三十二条内存。本模型还原四组排列，每组八条，颗粒细节仍按图片简化。",
+          "transcript": "官方主板图标注三十二条内存。本模型还原四组排列，每组八条，颗粒细节仍按图片简化。",
+          "start": 27.11,
+          "end": 36.47
+        }
+      ],
+      "sha256": "691c36b1876b942d0965141d1b180f2681672621f6bcd2d63fced87c98cb0531",
+      "voice": "Chatterbox reference-conditioned local Chinese voice, approved 2026-10-05",
+      "voice_revision": "chatterbox-20261005",
+      "audio_sha256": "f13ac9ec1872cf00328148d75291c9ac71d52cf8b134392382e59a0e928b4cb3"
+    },
+    "cx8": {
+      "id": "cx8",
+      "title": "ConnectX-8 网卡",
+      "spec": "8 个 OSFP · 最高 800 Gb/s",
+      "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/introduction-to-dgxb300.html",
+      "duration": 34.84,
+      "video": "./assets/lessons/cx8.mp4?v=9a3e00f72fc1",
+      "audio": "./assets/lessons/cx8.mp3?v=9a3e00f72fc1",
+      "poster": "./assets/lessons/cx8_poster.jpg?v=9a3e00f72fc1",
+      "captions": "./assets/lessons/cx8.vtt?v=9a3e00f72fc1",
+      "chapters": [
+        {
+          "heading": "跨机通信",
+          "caption": "ConnectX-8 面向高性能集群网络。",
+          "narration": "这一段认识 ConnectX 八网卡。它面向高性能集群网络，让多台服务器协同工作。",
+          "transcript": "这一段认识 ConnectX 八网卡。它面向高性能集群网络，让多台服务器协同工作。",
+          "start": 0,
+          "end": 8.0
+        },
+        {
+          "heading": "数据路径",
+          "caption": "本机 GPU 经网卡和外部交换机连接其他节点。",
+          "narration": "图形处理器的数据经过网卡和外部交换机，送往其他计算节点。这是跨机器的数据路径。",
+          "transcript": "图形处理器的数据经过网卡和外部交换机，送往其他计算节点。这是跨机器的数据路径。",
+          "start": 8.45,
+          "end": 16.17
+        },
+        {
+          "heading": "速度口径",
+          "caption": "8 个 OSFP 接口，每接口最高 800 Gb/s。",
+          "narration": "整机有八个对应接口，每接口最高八百吉比特每秒。吉比特与吉字节不是同一个单位。",
+          "transcript": "整机有八个对应接口，每接口最高八百吉比特每秒。吉比特与吉字节不是同一个单位。",
+          "start": 16.62,
+          "end": 25.58
+        },
+        {
+          "heading": "系统设计",
+          "caption": "实际效果取决于拓扑、线缆、交换机和软件。",
+          "narration": "实际多机性能还取决于网络拓扑、线缆、交换机和通信软件，不能只比较网卡标称速度。",
+          "transcript": "实际多机性能还取决于网络拓扑、线缆、交换机和通信软件，不能只比较网卡标称速度。",
+          "start": 26.03,
+          "end": 33.39
+        }
+      ],
+      "sha256": "9a3e00f72fc160faf0fad531206d5e5d82b571decbb74285de7e89609a0e5b92",
+      "voice": "Chatterbox reference-conditioned local Chinese voice, approved 2026-10-05",
+      "voice_revision": "chatterbox-20261005",
+      "audio_sha256": "fcf9fd8bd7d8440c0a8613b34361a301b8b73ad3afde1a971ca2343f24e9cb49"
+    },
+    "dpu": {
+      "id": "dpu",
+      "title": "BlueField-3 DPU",
+      "spec": "2 个 DPU · 双端口 QSFP112",
+      "source": "https://www.nvidia.com/en-us/data-center/dgx-b300/",
+      "duration": 37.24,
+      "video": "./assets/lessons/dpu.mp4?v=9251acabfa43",
+      "audio": "./assets/lessons/dpu.mp3?v=9251acabfa43",
+      "poster": "./assets/lessons/dpu_poster.jpg?v=9251acabfa43",
+      "captions": "./assets/lessons/dpu.vtt?v=9251acabfa43",
+      "chapters": [
+        {
+          "heading": "基础设施助手",
+          "caption": "DPU 参与网络、存储与基础设施任务。",
+          "narration": "这一段认识负责基础设施任务的数据处理器。它参与网络、存储和基础设施相关的处理任务。",
+          "transcript": "这一段认识负责基础设施任务的数据处理器。它参与网络、存储和基础设施相关的处理任务。",
+          "start": 0,
+          "end": 9.2
+        },
+        {
+          "heading": "与计算网络分工",
+          "caption": "BlueField-3 与 ConnectX-8 的规划用途不同。",
+          "narration": "这款数据处理器与高性能计算网卡，有不同的规划用途。集群设计要区分计算网络与基础设施网络。",
+          "transcript": "这款数据处理器与高性能计算网卡，有不同的规划用途。集群设计要区分计算网络与基础设施网络。",
+          "start": 9.65,
+          "end": 19.93
+        },
+        {
+          "heading": "端口配置",
+          "caption": "两块双端口 DPU，官方列最高 400 Gb/s。",
+          "narration": "整机提供两块双端口数据处理器。官网列出最高四百吉比特每秒的网络能力。",
+          "transcript": "整机提供两块双端口数据处理器。官网列出最高四百吉比特每秒的网络能力。",
+          "start": 20.38,
+          "end": 27.58
+        },
+        {
+          "heading": "部署思路",
+          "caption": "分别规划计算、存储和管理流量。",
+          "narration": "部署时分别规划计算、存储与管理流量，检查网络设计是否满足真实业务的需求。",
+          "transcript": "部署时分别规划计算、存储与管理流量，检查网络设计是否满足真实业务的需求。",
+          "start": 28.03,
+          "end": 35.79
+        }
+      ],
+      "sha256": "9251acabfa4329d626ec1bddba562734f5c5579c10733ea3ea7d507c11fd08ad",
+      "voice": "Chatterbox reference-conditioned local Chinese voice, approved 2026-10-05",
+      "voice_revision": "chatterbox-20261005",
+      "audio_sha256": "115f30d45cd11b4cc8ca0f5434e1e9e9671ef99d6ff2f786c0a8801750d0ff82"
+    },
+    "cache": {
+      "id": "cache",
+      "title": "E1.S 本地 NVMe 存储",
+      "spec": "8 × 3.84 TB",
+      "source": "https://www.nvidia.com/en-us/data-center/dgx-b300/",
+      "duration": 34.96,
+      "video": "./assets/lessons/cache.mp4?v=9eedc5d3686b",
+      "audio": "./assets/lessons/cache.mp3?v=9eedc5d3686b",
+      "poster": "./assets/lessons/cache_poster.jpg?v=9eedc5d3686b",
+      "captions": "./assets/lessons/cache.vtt?v=9eedc5d3686b",
+      "chapters": [
+        {
+          "heading": "数据缓存区",
+          "caption": "本地 NVMe 盘服务于数据存储与缓存。",
+          "narration": "这一段，我们来看本地高速存储。它服务于数据存储与缓存，帮助计算任务读取需要的数据。",
+          "transcript": "这一段，我们来看本地高速存储。它服务于数据存储与缓存，帮助计算任务读取需要的数据。",
+          "start": 0,
+          "end": 7.96
+        },
+        {
+          "heading": "容量口径",
+          "caption": "8 块 3.84 TB，原始总量 30.72 TB。",
+          "narration": "整机有八块三点八四太字节的数据盘，原始总量三十点七二太字节，可用量还受配置影响。",
+          "transcript": "整机有八块三点八四太字节的数据盘，原始总量三十点七二太字节，可用量还受配置影响。",
+          "start": 8.41,
+          "end": 16.81
+        },
+        {
+          "heading": "减少等待",
+          "caption": "存储供数能力影响 GPU 的实际利用率。",
+          "narration": "如果数据读取跟不上，图形处理器可能等待。规划存储时，应同时关注容量和供数能力。",
+          "transcript": "如果数据读取跟不上，图形处理器可能等待。规划存储时，应同时关注容量和供数能力。",
+          "start": 17.26,
+          "end": 26.34
+        },
+        {
+          "heading": "容量不能混用",
+          "caption": "磁盘容量不能替代 GPU 显存，也不等于共享存储容量。",
+          "narration": "磁盘容量不能替代图形处理器显存，本地盘的容量也不等于整个集群的共享存储容量。",
+          "transcript": "磁盘容量不能替代图形处理器显存，本地盘的容量也不等于整个集群的共享存储容量。",
+          "start": 26.79,
+          "end": 33.51
+        }
+      ],
+      "sha256": "9eedc5d3686b87b16488c5b35a28e049fb1d01f8413fe702499b20781fc12834",
+      "voice": "Chatterbox reference-conditioned local Chinese voice, approved 2026-10-05",
+      "voice_revision": "chatterbox-20261005",
+      "audio_sha256": "6f6cf1244a7977148b180124b76c80fcb55ebf828f71ab3a393cc99a30351663"
+    },
+    "boot": {
+      "id": "boot",
+      "title": "M.2 系统启动盘",
+      "spec": "2 × 1.92 TB · 手册口径",
+      "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/introduction-to-dgxb300.html",
+      "duration": 38.0,
+      "video": "./assets/lessons/boot.mp4?v=61bba368afb6",
+      "audio": "./assets/lessons/boot.mp3?v=61bba368afb6",
+      "poster": "./assets/lessons/boot_poster.jpg?v=61bba368afb6",
+      "captions": "./assets/lessons/boot.vtt?v=61bba368afb6",
+      "chapters": [
+        {
+          "heading": "启动系统",
+          "caption": "M.2 系统盘保存操作系统和必要软件。",
+          "narration": "这一段认识系统启动盘。它保存操作系统和必要软件，帮助整机进入可工作的状态。",
+          "transcript": "这一段认识系统启动盘。它保存操作系统和必要软件，帮助整机进入可工作的状态。",
+          "start": 0,
+          "end": 8.56
+        },
+        {
+          "heading": "与数据盘区分",
+          "caption": "启动盘和 E1.S 本地数据盘用途不同。",
+          "narration": "系统盘与本地数据盘承担不同职责。前者支撑启动和软件环境，后者服务于本地数据与缓存。",
+          "transcript": "系统盘与本地数据盘承担不同职责。前者支撑启动和软件环境，后者服务于本地数据与缓存。",
+          "start": 9.01,
+          "end": 18.69
+        },
+        {
+          "heading": "配置来源",
+          "caption": "用户手册列两块 1.92 TB M.2 NVMe。",
+          "narration": "用户手册列两块一点九二太字节启动盘。产品页把容量写成约一点九个太字节。",
+          "transcript": "用户手册列两块一点九二太字节启动盘。产品页把容量写成约一点九个太字节。",
+          "start": 19.14,
+          "end": 27.34
+        },
+        {
+          "heading": "部署软件栈",
+          "caption": "还需验证驱动、CUDA、容器和监控。",
+          "narration": "部署不能停留在能开机。还需要验证驱动、计算软件、容器环境和监控能否正常工作。",
+          "transcript": "部署不能停留在能开机。还需要验证驱动、计算软件、容器环境和监控能否正常工作。",
+          "start": 27.79,
+          "end": 36.55
+        }
+      ],
+      "sha256": "61bba368afb6da2b006a507e3f7fe302dc875ce179ffc1dc89cb1acab64b9240",
+      "voice": "Chatterbox reference-conditioned local Chinese voice, approved 2026-10-05",
+      "voice_revision": "chatterbox-20261005",
+      "audio_sha256": "3d416e201c8eb924ef24f110e231a122ceb87acb8052f12496d45720418c5035"
+    },
+    "psu": {
+      "id": "psu",
+      "title": "AC 冗余电源",
+      "spec": "12 个模块 · N+N",
+      "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/introduction-to-dgxb300.html",
+      "duration": 38.76,
+      "video": "./assets/lessons/psu.mp4?v=a792425ddf13",
+      "audio": "./assets/lessons/psu.mp3?v=a792425ddf13",
+      "poster": "./assets/lessons/psu_poster.jpg?v=a792425ddf13",
+      "captions": "./assets/lessons/psu.vtt?v=a792425ddf13",
+      "chapters": [
+        {
+          "heading": "持续供电",
+          "caption": "电源把机房供电转换成硬件需要的电力。",
+          "narration": "这一段认识备用供电设计。它把机房供电转换成各个硬件需要的电力，让系统持续运行。",
+          "transcript": "这一段认识备用供电设计。它把机房供电转换成各个硬件需要的电力，让系统持续运行。",
+          "start": 0,
+          "end": 8.72
+        },
+        {
+          "heading": "理解冗余",
+          "caption": "AC 版本采用 12 个电源模块，按 N+N 规划。",
+          "narration": "交流版本有十二个电源模块，并保留备用供电能力。这套设计还需要配合正确的供电和负载规划。",
+          "transcript": "交流版本有十二个电源模块，并保留备用供电能力。这套设计还需要配合正确的供电和负载规划。",
+          "start": 9.17,
+          "end": 18.57
+        },
+        {
+          "heading": "功耗来源",
+          "caption": "产品页约 14 kW；用户手册列 14.5 kW。",
+          "narration": "产品页标注大约一万四千瓦，用户手册列出一万四千五百瓦。部署和合同验收时，务必明确采用哪一个供电指标。",
+          "transcript": "产品页标注大约一万四千瓦，用户手册列出一万四千五百瓦。部署和合同验收时，务必明确采用哪一个供电指标。",
+          "start": 19.02,
+          "end": 30.14
+        },
+        {
+          "heading": "集群负载",
+          "caption": "128 台按 14.5 kW 算为 1.856 MW，未计其他负载。",
+          "narration": "一百二十八台按手册计算为一点八五六兆瓦，尚未包含网络、存储与冷却的用电。",
+          "transcript": "一百二十八台按手册计算为一点八五六兆瓦，尚未包含网络、存储与冷却的用电。",
+          "start": 30.59,
+          "end": 37.31
+        }
+      ],
+      "sha256": "a792425ddf1363b1ac7c5e580d7b57e3c9bb2efbe708a451d3cf186ac6633421",
+      "voice": "Chatterbox reference-conditioned local Chinese voice, approved 2026-10-05",
+      "voice_revision": "chatterbox-20261005",
+      "audio_sha256": "bfc7b872ed0e913c44a31b7c034d3aec8902f6c43d92d5a7022c5d986bfc5383"
+    },
+    "cooling": {
+      "id": "cooling",
+      "title": "散热组件",
+      "spec": "气流 · 温度 · 功率密度",
+      "source": "https://docs.nvidia.com/dgx/dgxb300-user-guide/introduction-to-dgxb300.html",
+      "duration": 36.68,
+      "video": "./assets/lessons/cooling.mp4?v=a6ad8e537e29",
+      "audio": "./assets/lessons/cooling.mp3?v=a6ad8e537e29",
+      "poster": "./assets/lessons/cooling_poster.jpg?v=a6ad8e537e29",
+      "captions": "./assets/lessons/cooling.vtt?v=a6ad8e537e29",
+      "chapters": [
+        {
+          "heading": "带走热量",
+          "caption": "散热系统带走芯片、内存、网络和电源的热量。",
+          "narration": "这一段认识散热系统。芯片、内存、网络和电源都会发热，散热系统负责把热量带走。",
+          "transcript": "这一段认识散热系统。芯片、内存、网络和电源都会发热，散热系统负责把热量带走。",
+          "start": 0,
+          "end": 8.44
+        },
+        {
+          "heading": "系统能力",
+          "caption": "持续性能需要散热能力与负载相匹配。",
+          "narration": "持续计算需要散热能力与负载相匹配。只看短时间的峰值性能，不能证明长期运行能力。",
+          "transcript": "持续计算需要散热能力与负载相匹配。只看短时间的峰值性能，不能证明长期运行能力。",
+          "start": 8.89,
+          "end": 17.57
+        },
+        {
+          "heading": "机房规划",
+          "caption": "关注进风温度、冷热通道和机柜功率密度。",
+          "narration": "机房设计要关注进风温度、冷热通道、机柜功率密度与整体冷却能力。",
+          "transcript": "机房设计要关注进风温度、冷热通道、机柜功率密度与整体冷却能力。",
+          "start": 18.02,
+          "end": 23.78
+        },
+        {
+          "heading": "对照 20 个风扇",
+          "caption": "官方后视图：20 个热插拔风扇，五列四排。",
+          "narration": "官方后视图标出二十个风扇，采用热插拔设计。模型按五列四排重建。真实叶片被网罩遮挡，所以叶片形态仍是教学示意。",
+          "transcript": "官方后视图标出二十个风扇，采用热插拔设计。模型按五列四排重建。真实叶片被网罩遮挡，所以叶片形态仍是教学示意。",
+          "start": 24.23,
+          "end": 35.23
+        }
+      ],
+      "sha256": "a6ad8e537e29f8518431425173cbd03a1f4d140a5703901dbd28064b1bdc7831",
+      "voice": "Chatterbox reference-conditioned local Chinese voice, approved 2026-10-05",
+      "voice_revision": "chatterbox-20261005",
+      "audio_sha256": "4266b9642bf2b51fce0a165bd5e2c380f8a9e064bde138f82202372bec1c365e"
+    }
+  },
+  "voice_revision": "chatterbox-20261005"
+}
